@@ -9,19 +9,21 @@ import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Nav from "./components/nav/Nav";
 import Portfolio from "./components/portfolio/Portfolio";
+import Services from "./components/services/Services";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <About />
-      <Contact />
-      <Experience />
-      <Footer />
       <Header />
       <Nav />
+      <About />
+      <Experience />
       <Portfolio />
+      <Services />
+      <Contact />
+      <Footer />
     </>
   );
 }
