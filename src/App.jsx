@@ -20,8 +20,8 @@ function App() {
       <Nav />
       <About />
       <Experience />
-      <Portfolio />
       <Services />
+      <Portfolio />
       <Contact />
       <Footer />
     </>
